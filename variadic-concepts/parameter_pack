@@ -1,0 +1,11 @@
+Variadic templates are template that take a variable number of arguments.
+Variadic function templates are functions which can take multiple number of arguments.
+
+Syntax for a variadic function template: :
+
+template(typename arg, typename... args)
+return_type function_name(arg var1, args... var2)
+
+Note :, typename arg, typename... args must be
+inside angular brackets. 
+
